@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "version": "v1.0-beta",
+  "release_date": "2026-11-06",
+  "channel": "beta",
+  "description": "Chinese dubbing test build with known coverage and audio-quality defects",
+  "beta_distribution_requested_by_user": true,
+  "final_campaign_accepted": false,
+  "runtime_verified": false,
+  "payload": {
+    "path": "payload/zh_campaign_v1.0-beta.iwd",
+    "bytes": 57051562,
+    "sha256": "becd09c042172a71abc0acc551fd494d9919fe3ff6a3a7af6b2541def3cf3406"
+  },
+  "member_count": 789,
+  "merged_prosody_members": 19,
+  "required_inputs": [
+    {
+      "bytes": 2753112,
+      "path": "BlackOps.exe",
+      "sha256": "c31f0145a93d19ead60af1173bd5a0a2ca9eccbffdfe290b11b52c5729facd0b"
+    },
+    {
+      "bytes": 2469,
+      "path": "localization.txt",
+      "sha256": "5f6c7bfa011f8cd24d16e6ce1056075d9562d08a9a992a8f25cd9388063f7dcc"
+    },
+    {
+      "bytes": 102775840,
+      "path": "zone/Common/cuba.ff",
+      "sha256": "1df094e501eba6360e1c59b2c91db272e541cff0b220aa7f8cd3a54ab71813e7"
+    },
+    {
+      "bytes": 959609,
+      "path": "zone/Japanese/ja_cuba.ff",
+      "sha256": "57c57120888df1bac61caf0f096126e0472084b84ef7009e7aa27133cbefed0d"
+    }
+  ],
+  "install_targets": [
+    "main/zz_zh_campaign.iwd",
+    "main/localized_English_iw99_zh_campaign.iwd",
+    "main/localized_Japanese_iw99_zh_campaign.iwd"
+  ],
+  "legacy_overrides": [
+    {
+      "path": "main/zz_zh_cuba_v2_prosody.iwd",
+      "sha256": "c2fdca4be28dc3b203a6a8e6ca300ee6d383e5521efa4b3ef00e9a8299d22886"
+    }
+  ],
+  "map_fastfiles_included": false,
+  "video_files_included": false,
+  "models_included": false,
+  "known_issues_document": "KNOWN-ISSUES.zh-CN.md",
+  "sources": [
+    {
+      "path": "zz_zh_campaign.iwd",
+      "sha256": "4b597b18c84e1f1fb19831ef447f5523af22fb86287a25745f725dd4d88bc7aa"
+    },
+    {
+      "path": "zz_zh_cuba_v2_prosody.iwd",
+      "sha256": "c2fdca4be28dc3b203a6a8e6ca300ee6d383e5521efa4b3ef00e9a8299d22886"
+    }
+  ]
+}
